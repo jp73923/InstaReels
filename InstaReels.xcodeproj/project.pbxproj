@@ -14,6 +14,7 @@
 		9A76340726FF1C630063D199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76340526FF1C630063D199 /* LaunchScreen.storyboard */; };
 		9A76341026FF1DA70063D199 /* Cell_Reels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76340E26FF1DA60063D199 /* Cell_Reels.swift */; };
 		9A76341126FF1DA70063D199 /* Cell_Reels.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A76340F26FF1DA70063D199 /* Cell_Reels.xib */; };
+		9A76341526FF3AC70063D199 /* InstaReel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A76341426FF3AC70063D199 /* InstaReel.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9A76340826FF1C630063D199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A76340E26FF1DA60063D199 /* Cell_Reels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_Reels.swift; sourceTree = "<group>"; };
 		9A76340F26FF1DA70063D199 /* Cell_Reels.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell_Reels.xib; sourceTree = "<group>"; };
+		9A76341426FF3AC70063D199 /* InstaReel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = InstaReel.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		9A7633F926FF1C600063D199 /* InstaReels */ = {
 			isa = PBXGroup;
 			children = (
+				9A76341326FF3ABB0063D199 /* Gif */,
 				9A76341226FF1DAD0063D199 /* CellXib */,
 				9A7633FA26FF1C600063D199 /* AppDelegate.swift */,
 				9A7633FE26FF1C600063D199 /* ViewController.swift */,
@@ -76,6 +79,14 @@
 				9A76340F26FF1DA70063D199 /* Cell_Reels.xib */,
 			);
 			path = CellXib;
+			sourceTree = "<group>";
+		};
+		9A76341326FF3ABB0063D199 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				9A76341426FF3AC70063D199 /* InstaReel.gif */,
+			);
+			path = Gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 				9A76340726FF1C630063D199 /* LaunchScreen.storyboard in Resources */,
 				9A76341126FF1DA70063D199 /* Cell_Reels.xib in Resources */,
 				9A76340426FF1C630063D199 /* Assets.xcassets in Resources */,
+				9A76341526FF3AC70063D199 /* InstaReel.gif in Resources */,
 				9A76340226FF1C600063D199 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

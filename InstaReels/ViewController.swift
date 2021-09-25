@@ -26,9 +26,6 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let Reelcell = self.tblInstaReels.dequeueReusableCell(withIdentifier: "Cell_Reels") as! Cell_Reels
-        if indexPath.row % 2 == 0 {
-            Reelcell.contentView.backgroundColor = UIColor.darkGray
-        }
         UIView.animate(withDuration: 12.0, delay: 1, options: ([.curveLinear, .repeat]), animations: {() -> Void in
             Reelcell.marqueeLabel.center = CGPoint.init(x: 35 - Reelcell.marqueeLabel.bounds.size.width / 2, y: Reelcell.marqueeLabel.center.y)
         }, completion:  { _ in })
