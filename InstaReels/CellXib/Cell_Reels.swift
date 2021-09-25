@@ -11,21 +11,7 @@ import AVFoundation
 class Cell_Reels: UITableViewCell {
 
     
-   /* @IBOutlet weak var videoPlayerSuperView: UIView!
-    
-    var avPlayer: AVPlayer?
-    var avPlayerLayer: AVPlayerLayer?
-    var paused: Bool = false
-    
-    var videoPlayerItem: AVPlayerItem? = nil {
-            didSet {
-                /*
-                 If needed, configure player item here before associating it with a player.
-                 (example: adding outputs, setting text style rules, selecting media options)
-                 */
-                avPlayer?.replaceCurrentItem(with: self.videoPlayerItem)
-            }
-        }*/
+   @IBOutlet weak var marqueeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
