@@ -12,7 +12,8 @@ class Cell_Reels: UITableViewCell {
 
     
    @IBOutlet weak var marqueeLabel: UILabel!
-    
+   @IBOutlet weak var imgReels: UIImageView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
     }

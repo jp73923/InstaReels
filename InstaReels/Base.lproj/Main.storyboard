@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shy-M8-VaW">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JzA-dI-cYd">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <connections>
                                             <outlet property="dataSource" destination="BYZ-38-t0r" id="FIr-qr-5VQ"/>
@@ -38,12 +38,12 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Shy-M8-VaW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1CJ-ZI-gVJ"/>
                             <constraint firstItem="Shy-M8-VaW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kxq-59-GaX"/>
+                            <constraint firstAttribute="bottom" secondItem="Shy-M8-VaW" secondAttribute="bottom" id="fQo-ab-2Ty"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Shy-M8-VaW" secondAttribute="trailing" id="jga-3i-WqB"/>
-                            <constraint firstItem="Shy-M8-VaW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oAw-fB-gCE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Shy-M8-VaW" secondAttribute="bottom" id="zQ0-pO-UO4"/>
                         </constraints>
                     </view>
                     <connections>
@@ -52,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="84"/>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
         </scene>
     </scenes>
     <resources>

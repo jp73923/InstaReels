@@ -19,6 +19,9 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q71-1c-8Hd">
                         <rect key="frame" x="0.0" y="0.0" width="496" height="750"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oxf-PH-y2B">
+                                <rect key="frame" x="0.0" y="0.0" width="496" height="750"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="9fb-WE-a4f">
                                 <rect key="frame" x="431" y="395" width="45" height="255"/>
                                 <subviews>
@@ -99,12 +102,16 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oxf-PH-y2B" secondAttribute="bottom" id="1Yi-j7-JBL"/>
                             <constraint firstAttribute="bottom" secondItem="szH-En-j3R" secondAttribute="bottom" constant="15" id="4Rs-fr-tBs"/>
                             <constraint firstItem="Xve-4a-l8k" firstAttribute="leading" secondItem="Q71-1c-8Hd" secondAttribute="leading" constant="20" id="712-8H-GTm"/>
                             <constraint firstAttribute="trailing" secondItem="szH-En-j3R" secondAttribute="trailing" constant="85" id="DQ1-BD-snO"/>
                             <constraint firstAttribute="trailing" secondItem="tlW-PS-Vgr" secondAttribute="trailing" constant="20" id="GXd-4M-bOl"/>
+                            <constraint firstAttribute="trailing" secondItem="oxf-PH-y2B" secondAttribute="trailing" id="OJt-jw-O3T"/>
+                            <constraint firstItem="oxf-PH-y2B" firstAttribute="leading" secondItem="Q71-1c-8Hd" secondAttribute="leading" id="a28-EI-99f"/>
+                            <constraint firstItem="oxf-PH-y2B" firstAttribute="top" secondItem="Q71-1c-8Hd" secondAttribute="top" id="dWD-Ky-FOg"/>
                             <constraint firstItem="szH-En-j3R" firstAttribute="top" secondItem="Xve-4a-l8k" secondAttribute="bottom" constant="15" id="ejs-CE-n9f"/>
                             <constraint firstAttribute="trailing" secondItem="9fb-WE-a4f" secondAttribute="trailing" constant="20" id="mhQ-nY-cZ3"/>
                             <constraint firstItem="szH-En-j3R" firstAttribute="leading" secondItem="Q71-1c-8Hd" secondAttribute="leading" constant="25" id="qnK-mo-Kro"/>
@@ -123,6 +130,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="imgReels" destination="oxf-PH-y2B" id="S3X-U9-axG"/>
                 <outlet property="marqueeLabel" destination="Es1-ck-xPR" id="8yx-ky-lVy"/>
             </connections>
             <point key="canvasLocation" x="259.4202898550725" y="348.21428571428572"/>
